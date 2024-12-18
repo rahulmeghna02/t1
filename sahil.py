@@ -44,7 +44,7 @@ verify()
 with open('config.json') as config_file:
     config = json.load(config_file)
 
-BOT_TOKEN = config['7748376075:AAFR7Rnsace57B08Of1ZFpNsg-cF3kP_c7Y']
+BOT_TOKEN = config['7634723065:AAFYmYLjPMghtL5Yau7skGUT0wOJRnXv5mM']
 ADMIN_IDS = config['1661744209']
 
 bot = telebot.TeleBot(BOT_TOKEN)
